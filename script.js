@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const container = document.getElementById("graph-container");
-  container.innerHTML = "✨ Graph will be rendered here soon...";
-});
+function fetchTrustData() {
+  const input = document.getElementById('userInput').value;
+  alert("Fetching data for: " + input);
+  // Next: Use fetch to call Intuition API and render graph
+}
